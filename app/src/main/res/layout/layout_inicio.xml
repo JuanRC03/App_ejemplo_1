@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_on_background_emphasis_medium">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#020202">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/material_on_background_emphasis_medium"
+                app:srcCompat="@drawable/img_inicio"
+                android:contentDescription="Fondo de pantalla"/>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="67dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="0dp" >
+
+                <Button
+                    android:id="@+id/btn_registrar"
+                    android:layout_width="204dp"
+                    android:layout_height="match_parent"
+                    android:text="Registrar"
+                    app:backgroundTint="@color/cardview_dark_background" />
+
+                <Button
+                    android:id="@+id/btn_iniciar_sesion"
+                    android:layout_width="207dp"
+                    android:layout_height="match_parent"
+                    android:text="Iniciar sesión "
+                    app:backgroundTint="@color/cardview_dark_background" />
+            </TableRow>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

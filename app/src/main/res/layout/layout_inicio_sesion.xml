@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="125dp"
+            android:layout_height="89dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="153dp"
+            android:layout_marginLeft="153dp"
+            android:layout_marginBottom="560dp"
+            app:srcCompat="@drawable/logo" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="477dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="154dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="288dp"
+                android:layout_height="110dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="38dp"
+                android:layout_marginEnd="80dp"
+                android:layout_marginRight="80dp"
+                android:text="Ingresa tu correo electrónico y contraseña para iniciar sesión"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <EditText
+                android:id="@+id/txt_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="158dp"
+                android:layout_marginEnd="159dp"
+                android:layout_marginRight="159dp"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:text="example@gmail.com" />
+
+            <EditText
+                android:id="@+id/txt_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="215dp"
+                android:layout_marginEnd="158dp"
+                android:layout_marginRight="158dp"
+                android:ems="10"
+                android:inputType="numberPassword"
+                android:text="......" />
+
+            <Button
+                android:id="@+id/btn_inicio_sesion"
+                android:layout_width="213dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="366dp"
+                android:layout_marginEnd="148dp"
+                android:layout_marginRight="148dp"
+                android:text="iniciar sesión"
+                app:backgroundTint="@color/cardview_dark_background" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="301dp"
+                android:layout_height="65dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="46dp"
+                android:layout_marginLeft="46dp"
+                android:layout_marginTop="290dp"
+                android:text="TextView"
+                tools:text="Revise las politicas de seguridad en: www.nike.com/info/politicas" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
